@@ -3649,24 +3649,10 @@
       }
     },
     {
-      "id": "f-neuron~mobility~adelaide~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-adl-cbd.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
       "id": "f-neuron~mobility~airdrie~gbfs",
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://mds-global-ard.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~ballarat~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-blt.neuron-mobility.com/gbfs/2/"
       }
     },
     {
@@ -3677,31 +3663,10 @@
       }
     },
     {
-      "id": "f-neuron~mobility~brisbane~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-bne.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~bundaberg~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-bdb.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
       "id": "f-neuron~mobility~calgary~gbfs",
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://mds-global-yyc.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~canberra~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-cbr.neuron-mobility.com/gbfs/2/"
       }
     },
     {
@@ -3712,31 +3677,10 @@
       }
     },
     {
-      "id": "f-neuron~mobility~darwin~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-drw.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
       "id": "f-neuron~mobility~dunedin~gbfs",
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://mds-global-dud.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~frankston~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-fkt.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~hobart~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-hba.neuron-mobility.com/gbfs/2/"
       }
     },
     {
@@ -3747,24 +3691,10 @@
       }
     },
     {
-      "id": "f-neuron~mobility~launceston~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-lst.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
       "id": "f-neuron~mobility~lethbridge~gbfs",
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://mds-global-yql.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~melbourne~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-mel.neuron-mobility.com/gbfs/2/"
       }
     },
     {
@@ -3782,13 +3712,6 @@
       }
     },
     {
-      "id": "f-neuron~mobility~perth~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-per.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
       "id": "f-neuron~mobility~red~deer~gbfs",
       "spec": "gbfs",
       "urls": {
@@ -3796,38 +3719,10 @@
       }
     },
     {
-      "id": "f-neuron~mobility~rockhampton~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-rok.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
       "id": "f-neuron~mobility~saskatoon~gbfs",
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://mds-global-yxe.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~stirling~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-per.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~sydney~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-syd.neuron-mobility.com/gbfs/2/"
-      }
-    },
-    {
-      "id": "f-neuron~mobility~townsville~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://mds-global-tsv.neuron-mobility.com/gbfs/2/"
       }
     },
     {
