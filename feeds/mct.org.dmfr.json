@@ -1,11 +1,14 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-madison~county~transit~il~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://mct.org/googletransit/google_transit.zip"
+        "static_current": "https://www.mct.org/mctinfo/gtfs.zip",
+        "static_historic": [
+          "http://mct.org/googletransit/google_transit.zip"
+        ]
       },
       "operators": [
         {

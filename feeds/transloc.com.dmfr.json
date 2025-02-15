@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-9qh-victorville~ca~us",
@@ -69,26 +69,14 @@
       ]
     },
     {
-      "id": "f-atomic~city~transit",
+      "id": "f-clemson~university",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://api.transloc.com/gtfs/atomic.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9wkk-atomiccitytransit",
-          "name": "Atomic City Transit",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "ACT"
-            }
-          ],
-          "tags": {
-            "twitter_general": "losalamos",
-            "us_ntd_id": "6R03-60215"
-          }
-        }
-      ]
+        "static_current": "https://api.transloc.com/gtfs/clemson.zip",
+        "static_historic": [
+          "https://passio3.com/clemson/passioTransit/gtfs/google_transit.zip"
+        ]
+      }
     },
     {
       "id": "f-coldlake~ab~ca",
@@ -174,24 +162,6 @@
       ]
     },
     {
-      "id": "f-dq259-ncsu~wolfline~nc~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.transloc.com/gtfs/ncsu.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dq259-ncsuwolfline",
-          "name": "NCSU Wolfline",
-          "tags": {
-            "twitter_general": "NCStateTranspo",
-            "us_ntd_id": "40147",
-            "wikidata_id": "Q8030170"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-dqb0q-charlottesvilleareatransit",
       "spec": "gtfs",
       "urls": {
@@ -216,23 +186,6 @@
             "twitter_general": "RideWithCAT",
             "us_ntd_id": "30036",
             "wikidata_id": "Q5086235"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-gary~public~transportation~in~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.transloc.com/gtfs/gptc.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-gary~public~transportation~in~us",
-          "name": "Gary Public Transportation Corporation",
-          "tags": {
-            "us_ntd_id": "50045",
-            "wikidata_id": "Q5525788"
           }
         }
       ]
@@ -271,11 +224,18 @@
       ]
     },
     {
-      "id": "f-rochester~institute~of~technology",
+      "id": "f-uc~irvine~anteater~express",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://api.transloc.com/gtfs/rit.zip"
-      }
+        "static_current": "https://api.transloc.com/gtfs/uci.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-uc~irvine~anteater~express",
+          "name": "University of California Irvine Shuttle",
+          "short_name": "UCI Anteater Express"
+        }
+      ]
     },
     {
       "id": "f-university~of~virginia",

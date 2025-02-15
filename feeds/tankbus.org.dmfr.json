@@ -1,18 +1,18 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-dngy-transitauthorityofnorthernkentucky",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.tankbus.org/wp-content/uploads/2023/04/tank-google-transit.zip",
+        "static_current": "https://tank.rideralerts.com/InfoPoint/GTFS-Zip.ashx",
         "static_historic": [
+          "https://www.tankbus.org/wp-content/uploads/2023/04/tank-google-transit.zip",
           "https://www.tankbus.org/Portals/tankbus/gtfs/tank-google-transit.zip"
         ]
       },
       "tags": {
-        "gtfs_data_exchange": "transit-authority-of-northern-kentucky",
-        "unstable_url": "true"
+        "gtfs_data_exchange": "transit-authority-of-northern-kentucky"
       },
       "operators": [
         {
@@ -36,9 +36,9 @@
       "id": "f-dngy-transitauthorityofnorthernkentucky~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://66.42.202.74:89/api/vehiclepositions",
-        "realtime_trip_updates": "http://66.42.202.74:89/api/tripupdates",
-        "realtime_alerts": "http://66.42.202.74:89/api/servicealerts"
+        "realtime_vehicle_positions": "https://tank.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+        "realtime_trip_updates": "https://tank.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=TripUpdate",
+        "realtime_alerts": "https://tank.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=Alert"
       },
       "license": {
         "url": "https://www.tankbus.org/service-alerts/"

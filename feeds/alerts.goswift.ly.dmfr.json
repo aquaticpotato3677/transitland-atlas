@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-9q-easternsierra~ca~us~rt~alerts",
@@ -66,21 +66,6 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_alerts": "https://api.goswift.ly/real-time/flint-hills-ata/gtfs-rt-alerts/"
-      },
-      "license": {
-        "url": "https://www.goswift.ly/api-license"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "Authorization",
-        "info_url": "https://goswift.ly/realtime-api-key"
-      }
-    },
-    {
-      "id": "f-avalon~ca~rt~alerts",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_alerts": "https://api.goswift.ly/real-time/avalon/gtfs-rt-alerts"
       },
       "license": {
         "url": "https://www.goswift.ly/api-license"

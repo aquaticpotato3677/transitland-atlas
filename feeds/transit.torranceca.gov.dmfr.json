@@ -1,11 +1,14 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-9q5b-torrancetransit",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://transit.torranceca.gov/home/showpublisheddocument/16673/638089508813700000"
+        "static_current": "https://transit.torranceca.gov/home/showpublisheddocument/16673/638564236831470000",
+        "static_historic": [
+          "https://transit.torranceca.gov/home/showpublisheddocument/16673/638089508813700000"
+        ]
       },
       "license": {
         "url": "https://transit.torranceca.gov/home/showpublisheddocument/6052/636308096437370000"

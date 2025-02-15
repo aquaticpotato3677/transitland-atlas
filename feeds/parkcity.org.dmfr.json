@@ -1,19 +1,17 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-park~city~ut",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.parkcity.org/home/showpublisheddocument/72907/638053296355370000",
+        "static_current": "https://go.parkcity.org/InfoPoint/gtfs-zip.ashx",
         "static_historic": [
+          "https://www.parkcity.org/home/showpublisheddocument/72907/638053296355370000",
           "https://www.parkcity.org/home/showpublisheddocument/72604/637994463911870000",
           "https://www.parkcity.org/home/showpublisheddocument/72091/637859770571330000",
           "https://go.parkcity.org/infopoint/google_transit.zip"
         ]
-      },
-      "tags": {
-        "unstable_url": "true"
       },
       "operators": [
         {

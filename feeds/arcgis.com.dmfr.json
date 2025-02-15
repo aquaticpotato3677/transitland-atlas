@@ -1,23 +1,64 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
-      "id": "f-fredericksburg~regional~transit",
+      "id": "f-dnq-gastoniatransit",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.arcgis.com/sharing/rest/content/items/d1483daba66d43358e29682c91907817/data"
-      },
-      "license": {
-        "url": "https://virginia-gtfs.com/"
-      },
-      "tags": {
-        "mdb_source_id": "1299"
+        "static_current": "https://www.arcgis.com/sharing/rest/content/items/d44c866e95c24bafb23c12d15b4db525/data"
       },
       "operators": [
         {
-          "onestop_id": "o-fredericksburg~regional~transit",
-          "name": "Fredericksburg Regional Transit",
-          "short_name": "FXBGO!"
+          "onestop_id": "o-dnq-gastoniatransit",
+          "name": "Gastonia Transit",
+          "website": "https://gastonianc.gov/city-bus-service",
+          "tags": {
+            "us_ntd_id": "40010",
+            "wikidata_id": "Q5526770"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-dnq-salisburytransit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.arcgis.com/sharing/rest/content/items/45036cb56c73428db025acd290e7beaa/data"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dnq-salisburytransit",
+          "name": "Salisbury Transit",
+          "website": "https://salisburync.gov/Government/Transit",
+          "tags": {
+            "us_ntd_id": "40233"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-dqct-annapolistransit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.arcgis.com/sharing/rest/content/items/c307923d57ab4871aff79491b4a1bfd3/data",
+        "static_historic": [
+          "https://github.com/mobilityequity/maryland-local-gtfs/raw/master/Annapolis_GTFS.zip"
+        ]
+      },
+      "license": {
+        "url": "https://city-of-annapolis-open-data-portal-annapolis.hub.arcgis.com/datasets/annapolis-gtfs/about"
+      },
+      "tags": {
+        "gtfs_data_exchange": "annapolis-transit"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dqct-annapolistransit",
+          "name": "Annapolis Transit",
+          "tags": {
+            "us_ntd_id": "30040",
+            "wikidata_id": "Q4767978"
+          }
         }
       ]
     },

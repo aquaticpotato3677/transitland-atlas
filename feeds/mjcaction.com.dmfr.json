@@ -1,52 +1,6 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
-    {
-      "id": "f-9q9hu-cityofpaloaltoshuttle",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "http://mjcaction.com/MJC_GTFS_Public/cityofpaloalto_google_transit.zip"
-        ]
-      },
-      "tags": {
-        "inactive": "true",
-        "managed_by": "mjc"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q9hu-cityofpaloaltoshuttle",
-          "name": "City of Palo Alto Shuttle",
-          "website": "http://www.cityofpaloalto.org/news/displaynews.asp?NewsID=212&TargetID=107",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "pa_shuttle"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f-9w-navajotransitsystem",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/navajo_google_transit.zip"
-      },
-      "tags": {
-        "managed_by": "mjc"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9w-navajotransitsystem",
-          "name": "Navajo Transit System",
-          "tags": {
-            "managed_by": "mjc",
-            "us_ntd_id": "90005",
-            "wikidata_id": "Q104868592"
-          }
-        }
-      ]
-    },
     {
       "id": "f-9wgu-gunnisonvalleyrta",
       "spec": "gtfs",
@@ -65,6 +19,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "GVRTA"
+            },
+            {
+              "feed_onestop_id": "f-gunnisonvalleyrta~co~us~flex"
             },
             {
               "feed_onestop_id": "f-gunnisonvalleyrta~rt"
@@ -187,50 +144,6 @@
       ]
     },
     {
-      "id": "f-c28-pugetsoundexpress",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/pse_google_transit.zip"
-      },
-      "tags": {
-        "managed_by": "mjc"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-c28-pugetsoundexpress",
-          "name": "Puget Sound Express",
-          "website": "http://www.pugetsoundexpress.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "psexpress"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f-c283-jamestownsklallam",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/sevencedars_google_transit.zip"
-      },
-      "tags": {
-        "managed_by": "mjc"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-c283-jamestownsklallam",
-          "name": "Jamestown S'klallam",
-          "website": "http://www.7cedarscasino.com",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "jamestown"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "f-c284-blackballferryline",
       "spec": "gtfs",
       "urls": {
@@ -276,13 +189,6 @@
       ]
     },
     {
-      "id": "f-dc~motorcoach",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/dcmotorcoach_google_transit.zip"
-      }
-    },
-    {
       "id": "f-dqcm2-dcstreetcar",
       "spec": "gtfs",
       "urls": {
@@ -316,62 +222,10 @@
       ]
     },
     {
-      "id": "f-express-arrow",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/expressarrow_google_transit.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9x-expressarrow",
-          "name": "Express Arrow",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "asl"
-            }
-          ],
-          "tags": {
-            "twitter_general": "express_arrow",
-            "us_ntd_id": "8R01-70269"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-gallup~express",
       "spec": "gtfs",
       "urls": {
         "static_current": "http://mjcaction.com/MJC_GTFS_Public/gallupexpress_google_transit.zip"
-      }
-    },
-    {
-      "id": "f-las~cruces~road~runner",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/lascrucesroadrunner_google_transit.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9tsp-roadrunnertransit",
-          "name": "RoadRUNNER Transit",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "6049"
-            }
-          ],
-          "tags": {
-            "twitter_general": "clcgov",
-            "us_ntd_id": "60049",
-            "wikidata_id": "Q7339261"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-makah",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/makah_google_transit.zip"
       }
     },
     {
@@ -385,7 +239,7 @@
       "id": "f-sandusky",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/sandusky_google_transit.zip"
+        "static_current": "https://mjcaction.com/MJC_GTFS_Public/sandusky_google_transit.zip"
       },
       "operators": [
         {
@@ -458,34 +312,6 @@
       "urls": {
         "realtime_vehicle_positions": "https://lat-long-prototype.wl.r.appspot.com/vehicle-positions.pb?agency=santa-ynez-valley-transit"
       }
-    },
-    {
-      "id": "f-sierra~vista~az",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/sierravista_google_transit.zip"
-      }
-    },
-    {
-      "id": "f-sqaxin~tribal~transit",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://mjcaction.com/MJC_GTFS_Public/squaxintribe_google_transit.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-c22k-squaxinislandtransit",
-          "name": "Squaxin Island Transit",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "SquaxinIslandTribe"
-            }
-          ],
-          "tags": {
-            "us_ntd_id": "00103"
-          }
-        }
-      ]
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"

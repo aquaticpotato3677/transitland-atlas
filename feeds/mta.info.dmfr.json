@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-dr5-mtanyclirr",
@@ -171,11 +171,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -203,11 +198,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -218,11 +208,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -233,11 +218,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -248,11 +228,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -263,11 +238,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -278,11 +248,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -293,11 +258,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -308,11 +268,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -323,11 +278,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     },
     {
@@ -338,11 +288,6 @@
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "x-api-key",
-        "info_url": "https://api.mta.info/"
       }
     }
   ],
@@ -444,6 +389,9 @@
       "associated_feeds": [
         {
           "feed_onestop_id": "f-dr7-mtanyc~metro~north"
+        },
+        {
+          "feed_onestop_id": "f-hudson~rail~link"
         },
         {
           "feed_onestop_id": "f-mta~nyc~rt~alerts"

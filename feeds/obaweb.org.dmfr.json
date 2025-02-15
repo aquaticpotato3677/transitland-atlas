@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-c22-piercetransit~soundtransit",
@@ -28,7 +28,7 @@
           ],
           "tags": {
             "twitter_general": "PierceTransit",
-            "us_ntd_id": "3",
+            "us_ntd_id": "00003",
             "wikidata_id": "Q7191834"
           }
         }
@@ -62,7 +62,7 @@
           ],
           "tags": {
             "twitter_general": "kcmetrobus",
-            "us_ntd_id": "3",
+            "us_ntd_id": "00001",
             "wikidata_id": "Q6411393"
           }
         }
@@ -127,7 +127,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "5",
+            "us_ntd_id": "00005",
             "wikidata_id": "Q5417075"
           }
         }

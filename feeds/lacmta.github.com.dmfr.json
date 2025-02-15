@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-artesia~ca~us",
@@ -27,25 +27,6 @@
           "tags": {
             "twitter_general": "BaldwinParkCA",
             "us_ntd_id": "90251"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-bellflower~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/bellflower-ca-us/bellflower-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/bellflower-ca-us/bellflower-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q5bz-bellflowerbus",
-          "name": "Bellflower Bus",
-          "tags": {
-            "us_ntd_id": "90254"
           }
         }
       ]
@@ -145,61 +126,19 @@
       ]
     },
     {
-      "id": "f-downey~ca~us",
+      "id": "f-elsegundo~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/downey-ca-us/downey-ca-us.zip",
+        "static_current": "https://github.com/LACMTA/los-angeles-regional-gtfs/raw/main/artesia-ca-us/elsegundo-ca-us.zip",
         "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/downey-ca-us/downey-ca-us.zip"
+          "https://data.trilliumtransit.com/gtfs/elsegundo-ca-us/elsegundo-ca-us.zip"
         ]
       },
       "operators": [
         {
-          "onestop_id": "o-9q5cp-downeylink",
-          "name": "DowneyLINK",
-          "tags": {
-            "us_ntd_id": "90263"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-getaroundtownexpress~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/getaroundtownexpress-ca-us/getaroundtownexpress-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/getaroundtownexpress-ca-us/getaroundtownexpress-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q5cn-getaroundtownexpress",
-          "name": "City of South Gate Get Around Town Express",
-          "short_name": "GATE",
-          "tags": {
-            "us_ntd_id": "90291"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-glendora~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/glendora-ca-us/glendora-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/glendora-ca-us/glendora-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9qh4j-glendoratransportationdivision",
-          "name": "Glendora Transportation Division",
-          "tags": {
-            "twitter_general": "CityofGlendora",
-            "us_ntd_id": "90266"
-          }
+          "onestop_id": "o-elsegundo~ca~us",
+          "name": "El Segundo Transportation",
+          "website": "https://www.elsegundo.org/our-city/transportation"
         }
       ]
     },
@@ -221,13 +160,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "f-inglewood~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://github.com/LACMTA/los-angeles-regional-gtfs/raw/main/inglewood-ca-us/inglewood-ca-us.zip"
-      }
     },
     {
       "id": "f-lacampana~ca~us",
@@ -283,25 +215,6 @@
           "onestop_id": "o-playavistashuttle~ca~us",
           "name": "Playa Vista Shuttle",
           "website": "https://playavista.com/playa-vista-shuttle/"
-        }
-      ]
-    },
-    {
-      "id": "f-rosemead~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/rosemead-ca-us/rosemead-ca-us.zip",
-        "static_historic": [
-          "http://data.trilliumtransit.com/gtfs/rosemead-ca-us/rosemead-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9qh1b-rosemeadexplorer",
-          "name": "Rosemead Explorer",
-          "tags": {
-            "us_ntd_id": "90289"
-          }
         }
       ]
     },

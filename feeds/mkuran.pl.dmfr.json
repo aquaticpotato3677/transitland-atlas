@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-pkp~intercity~pl",
@@ -128,29 +128,6 @@
           "name": "Komunikacja Autobusowa sp. z o.o. (Świnoujście)",
           "short_name": "KA Świnoujście",
           "website": "https://ka.swinoujscie.pl/"
-        }
-      ]
-    },
-    {
-      "id": "f-u3h-koleje~dolnoslaskie",
-      "name": "Koleje Dolnośląskie GTFS",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://mkuran.pl/gtfs/kolejedolnoslaskie.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-u3h-koleje~dolnoslaskie",
-          "name": "Koleje Dolnośląskie",
-          "short_name": "KD",
-          "website": "https://kolejedolnoslaskie.pl/"
         }
       ]
     },

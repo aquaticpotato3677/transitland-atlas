@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-c29-communitytransit",
@@ -32,7 +32,7 @@
           ],
           "tags": {
             "twitter_general": "MyCommTrans",
-            "us_ntd_id": "3",
+            "us_ntd_id": "00029",
             "wikidata_id": "Q5154898"
           }
         }

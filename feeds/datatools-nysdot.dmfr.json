@@ -1,39 +1,11 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-academy~express~staten~island",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Academy_Express_-_Staten_Island.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      }
-    },
-    {
-      "id": "f-adirondack~trailways~adt",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Adirondack_Trailways-ADT.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      }
-    },
-    {
-      "id": "f-adirondack~trailways~adu",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Adirondack_Trailways-ADU.zip"
       },
       "license": {
         "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
@@ -58,38 +30,10 @@
       }
     },
     {
-      "id": "f-adirondack~trailways~nyt",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Adirondack_Trailways-NYT.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      }
-    },
-    {
       "id": "f-adirondack~trailways~nyu",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Adirondack_Trailways-NYU.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      }
-    },
-    {
-      "id": "f-adirondack~trailways~phk",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Adirondack_Trailways-PHK.zip"
       },
       "license": {
         "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
@@ -179,7 +123,10 @@
       "id": "f-chemung~c~tran",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Chemung_C_Tran.zip"
+        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Chemung_C_TRAN.zip",
+        "static_historic": [
+          "https://s3.amazonaws.com/datatools-511ny/public/Chemung_C_Tran.zip"
+        ]
       },
       "license": {
         "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
@@ -247,6 +194,20 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-columbia~county",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Columbia_County_Public_Transit.zip"
+      },
+      "license": {
+        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
     },
     {
       "id": "f-cortland~transit",
@@ -330,26 +291,6 @@
             "us_ntd_id": "20178",
             "wikidata_id": "Q7879947"
           }
-        }
-      ]
-    },
-    {
-      "id": "f-dr73-tappanzeeexpress",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-nysdot/public/TappanZee_Express.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dr73-tappanzeeexpress",
-          "name": "TappanZee Express",
-          "short_name": "TZx",
-          "website": "http://www.rocklandbus.com",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "TZEXpress-Rockland-ny-us"
-            }
-          ]
         }
       ]
     },
@@ -653,7 +594,10 @@
       "id": "f-hudson~rail~link",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Hudson_Rail_Link.zip"
+        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Hudson_Rail_Link.zip",
+        "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/mnrraillink-ny-us/mnrraillink-ny-us.zip"
+        ]
       },
       "license": {
         "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
@@ -695,7 +639,10 @@
       "id": "f-kiryas~joel~ny",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Kiryas_Joel.zip"
+        "static_current": "https://data.trilliumtransit.com/gtfs/kiryasjoel-ny-us/kiryasjoel-ny-us.zip",
+        "static_historic": [
+          "https://s3.amazonaws.com/datatools-511ny/public/Kiryas_Joel.zip"
+        ]
       },
       "license": {
         "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
@@ -780,6 +727,9 @@
       "operators": [
         {
           "onestop_id": "o-dr73-lowerhudsonvalleytransit",
+          "supersedes_ids": [
+            "o-dr73-tappanzeeexpress"
+          ],
           "name": "Lower Hudson Transit Link",
           "short_name": "Hudson Link",
           "associated_feeds": [
@@ -813,6 +763,30 @@
           "name": "Madison County Transit",
           "tags": {
             "us_ntd_id": "2R02-20940"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-middletown~ny~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/middletown-ny-us/middletown-ny-us.zip"
+      },
+      "license": {
+        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dr75f-middletownareatransit",
+          "name": "Middletown Area Transit",
+          "website": "https://www.ridetransitorange.com/middletown",
+          "tags": {
+            "us_ntd_id": "20216"
           }
         }
       ]
@@ -853,20 +827,6 @@
       }
     },
     {
-      "id": "f-newburgh~bus",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://oc-otp-gtfs.s3.amazonaws.com/newburgh.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      }
-    },
-    {
       "id": "f-niagra~county~ny",
       "spec": "gtfs",
       "urls": {
@@ -879,35 +839,6 @@
         "commercial_use_allowed": "yes",
         "share_alike_optional": "yes"
       }
-    },
-    {
-      "id": "f-olean~area~transit~system",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Olean_Area_Transit_System.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dr2p-oleanareatransitsystem",
-          "name": "Olean Area Transit System",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "OATS-Cattaraugus-ny-us"
-            }
-          ],
-          "tags": {
-            "twitter_general": "oatsolean",
-            "us_ntd_id": "2R02-20975"
-          }
-        }
-      ]
     },
     {
       "id": "f-oneida~county~ny",
@@ -936,6 +867,45 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-oneonta",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Oneonta_Public_Transportation.zip"
+      },
+      "license": {
+        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-oneonta",
+          "name": "Oneonta Public Transit",
+          "short_name": "OPT Rides",
+          "website": "https://www.optrides.com/",
+          "tags": {
+            "us_ntd_id": "20960"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-oswego~county",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Oswego_County_Public_Transit.zip"
+      },
+      "license": {
+        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
     },
     {
       "id": "f-otsego~express",
@@ -1024,34 +994,23 @@
       ]
     },
     {
-      "id": "f-rts~seneca~ny",
+      "id": "f-rockland~ny~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/RTS-Seneca.zip"
-      },
-      "license": {
-        "url": "https://www.myrts.com/RGRTA-API",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
+        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/TOR_Transport_of_Rockland.zip",
+        "static_historic": [
+          "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/rockland-ny-us.zip"
+        ]
       },
       "operators": [
         {
-          "onestop_id": "o-dr9k-rtsseneca",
-          "name": "RTS Seneca",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "RTS-Seneca-NY-US"
-            },
-            {
-              "feed_onestop_id": "f-rochester~geneseeregionaltransportationauthority~rt"
-            }
-          ],
+          "onestop_id": "o-rockland~ny~us",
+          "name": "Transport of Rockland",
+          "short_name": "TOR",
+          "website": "https://www.rocklandcountyny.gov/departments/public-transportation/transport-of-rockland-tor",
           "tags": {
-            "twitter_general": "enjoyRTS",
-            "us_ntd_id": "20113",
-            "wikidata_id": "Q7353936"
+            "us_ntd_id": "20084",
+            "wikidata_id": "Q7835144"
           }
         }
       ]
@@ -1232,34 +1191,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Trailways-NYP.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      }
-    },
-    {
-      "id": "f-trailways~nyt~ny",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Trailways-NYT.zip"
-      },
-      "license": {
-        "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      }
-    },
-    {
-      "id": "f-trailways~phk~ny",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://s3.amazonaws.com/datatools-511ny/public/Trailways-PHK.zip"
       },
       "license": {
         "url": "https://data.ny.gov/download/77gx-ii52/application/pdf",

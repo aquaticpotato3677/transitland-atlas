@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-jefferson~mn~us",
@@ -34,13 +34,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://hub-mndot-prod.camsys-apps.com/static/v1/gtfs/rhtbus-mn-us/rolling_hills.zip"
-      }
-    },
-    {
-      "id": "f-rochester~mn~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://hub-mndot-prod.camsys-apps.com/static/v1/gtfs/rochester-mn-us/rochester.zip"
       }
     },
     {

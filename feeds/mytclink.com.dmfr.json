@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-tricounty~link~sc~us",
@@ -10,7 +10,11 @@
       "operators": [
         {
           "onestop_id": "o-djz-tricountylink",
-          "name": "TriCounty Link",
+          "supersedes_ids": [
+            "o-djz4-tricountylink"
+          ],
+          "name": "Berkeley-Charleston-Dorchester TriCounty Link",
+          "short_name": "TriCounty Link",
           "associated_feeds": [
             {
               "gtfs_agency_id": "161"

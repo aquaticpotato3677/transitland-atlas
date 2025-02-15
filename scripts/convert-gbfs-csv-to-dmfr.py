@@ -10,7 +10,7 @@ cr = csv.DictReader(decoded_content.splitlines(), delimiter=",")
 feeds = []
 for row in list(cr):
     name = (row["Name"] + ' ' + row["Location"]).lower()
-    names = re.split('[;,\.\-\% ]+', name)
+    names = re.split('[;,.\-\%\s]+', name)
     id = '~'.join(OrderedDict.fromkeys(names))
     onestop_id = f"f-{id}~gbfs"
     if onestop_id in [f["id"] for f in feeds]:
@@ -25,7 +25,7 @@ for row in list(cr):
     }
     feeds.append(feed)
 dmfr = {
-    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
     "feeds": feeds,
     "license_spdx_identifier": "CDLA-Permissive-1.0",
 }

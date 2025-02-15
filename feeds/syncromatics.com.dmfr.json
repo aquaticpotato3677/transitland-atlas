@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-9myr-paloverdevalley~ca~us~rt",
@@ -137,15 +137,37 @@
       }
     },
     {
-      "id": "f-dnru-chapel~hill~transit~nc~us~rt",
+      "id": "f-downey~ca~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ridedowneylink.com/gtfs",
+        "static_historic": [
+          "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/downey-ca-us/downey-ca-us.zip",
+          "https://data.trilliumtransit.com/gtfs/downey-ca-us/downey-ca-us.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9q5cp-downeylink",
+          "name": "DowneyLINK",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-downey~ca~us~rt"
+            }
+          ],
+          "tags": {
+            "us_ntd_id": "90263"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-downey~ca~us~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://mychtransit.org/gtfs-rt/vehiclepositions",
-        "realtime_trip_updates": "https://mychtransit.org/gtfs-rt/tripupdates",
-        "realtime_alerts": "https://mychtransit.org/gtfs-rt/alerts"
-      },
-      "license": {
-        "url": "https://gtfs-directory.syncromatics.com/"
+        "realtime_vehicle_positions": "https://ridedowneylink.com/gtfs-rt/vehiclepositions",
+        "realtime_trip_updates": "https://ridedowneylink.com/gtfs-rt/tripupdates",
+        "realtime_alerts": "https://ridedowneylink.com/gtfs-rt/alerts"
       }
     },
     {
