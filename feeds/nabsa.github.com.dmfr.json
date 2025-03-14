@@ -5,7 +5,7 @@
       "id": "f-2em~car~sharing~switzerland~gbfs",
       "spec": "gbfs",
       "urls": {
-        "gbfs_auto_discovery": "https://api.mobidata-bw.de/sharing/gbfs/zem_ch/gbfs"
+        "gbfs_auto_discovery": "https://gbfs.prod.sharedmobility.ch/v2/gbfs/2em_cars/gbfs"
       }
     },
     {
@@ -615,6 +615,13 @@
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://mds.bird.co/gbfs/v2/public/fairfax/gbfs.json"
+      }
+    },
+    {
+      "id": "f-bird~grenchen~gbfs",
+      "spec": "gbfs",
+      "urls": {
+        "gbfs_auto_discovery": "https://mds.bird.co/gbfs/v2/public/grenchen/gbfs.json"
       }
     },
     {
@@ -5203,6 +5210,20 @@
       }
     },
     {
+      "id": "f-lime~wetzikon~gbfs",
+      "spec": "gbfs",
+      "urls": {
+        "gbfs_auto_discovery": "https://gbfs.prod.sharedmobility.ch/v2/gbfs/lime_wetzikon/gbfs"
+      }
+    },
+    {
+      "id": "f-lime~winterthur~gbfs",
+      "spec": "gbfs",
+      "urls": {
+        "gbfs_auto_discovery": "https://gbfs.prod.sharedmobility.ch/v2/gbfs/lime_winterthur/gbfs"
+      }
+    },
+    {
       "id": "f-lime~zug~gbfs",
       "spec": "gbfs",
       "urls": {
@@ -5564,6 +5585,13 @@
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_re/gbfs.json"
+      }
+    },
+    {
+      "id": "f-mobility~switzerland~gbfs",
+      "spec": "gbfs",
+      "urls": {
+        "gbfs_auto_discovery": "https://gbfs.prod.sharedmobility.ch/v2/gbfs/mobility/gbfs"
       }
     },
     {
@@ -6743,6 +6771,13 @@
       }
     },
     {
+      "id": "f-ryde~fredrikstad~gbfs",
+      "spec": "gbfs",
+      "urls": {
+        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/rydefredrikstad/gbfs"
+      }
+    },
+    {
       "id": "f-ryde~porsgrunn~gbfs",
       "spec": "gbfs",
       "urls": {
@@ -6750,10 +6785,10 @@
       }
     },
     {
-      "id": "f-ryde~ryde_fredrikstad~sarpsborg~fredrikstad~gbfs",
+      "id": "f-ryde~sarpsborg~gbfs",
       "spec": "gbfs",
       "urls": {
-        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/rydefredrikstadsarpsborg/gbfs"
+        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/rydesarpsborg/gbfs"
       }
     },
     {
@@ -7219,13 +7254,6 @@
       }
     },
     {
-      "id": "f-surf~oslo~no~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://api.app.surf/gbfs/en/gbfs.json"
-      }
-    },
-    {
       "id": "f-swu2go~carsharing~ulm~gbfs",
       "spec": "gbfs",
       "urls": {
@@ -7268,20 +7296,6 @@
       }
     },
     {
-      "id": "f-tier~asker~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/tierasker/gbfs"
-      }
-    },
-    {
-      "id": "f-tier~baerum~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/tierbaerum/gbfs"
-      }
-    },
-    {
       "id": "f-tier~basel~gbfs",
       "spec": "gbfs",
       "urls": {
@@ -7296,13 +7310,6 @@
       }
     },
     {
-      "id": "f-tier~lillestrom~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/tierlillestrom/gbfs"
-      }
-    },
-    {
       "id": "f-tier~paris~gbfs",
       "spec": "gbfs",
       "urls": {
@@ -7314,13 +7321,6 @@
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://api.mobidata-bw.de/sharing/gbfs/tier_stgallen/gbfs"
-      }
-    },
-    {
-      "id": "f-tier~trondheim~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/tiertrondheim/gbfs"
       }
     },
     {
