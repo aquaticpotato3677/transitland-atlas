@@ -44,6 +44,48 @@
       ]
     },
     {
+      "id": "f-9rc-cascadeseast~or~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/cet/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://oregon-gtfs.trilliumtransit.com/gtfs_data/cascadeseast-or-us/cascadeseast-or-us.zip"
+        ]
+      },
+      "tags": {
+        "gtfs_data_exchange": "cascades-east-transit"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9rc-cascadeseasttransit",
+          "name": "Cascades East Transit",
+          "short_name": "CET",
+          "website": "https://www.caravanairporttransportation.com/",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "61"
+            },
+            {
+              "feed_onestop_id": "f-9rc-cascadeseast~or~us~rt"
+            }
+          ],
+          "tags": {
+            "twitter_general": "ridecet",
+            "us_ntd_id": "00057"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-9rc-cascadeseast~or~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/cet/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/cet/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/cet/passioTransit/gtfs/realtime/serviceAlerts"
+      }
+    },
+    {
       "id": "f-9vxz-jatran~ms~us",
       "spec": "gtfs",
       "urls": {
@@ -67,6 +109,37 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-9xj5s-viamobilityservices~co~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/viaboulder/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/viamobilityservices-co-us/viamobilityservices-co-us.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9xj5s-viamobilityservices",
+          "name": "Via Mobility Services",
+          "website": "https://viacolorado.org",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9xj5s-viamobilityservices~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-9xj5s-viamobilityservices~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/viaboulder/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/viaboulder/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/viaboulder/passioTransit/gtfs/realtime/serviceAlerts"
+      }
     },
     {
       "id": "f-arcadia~ca~us",
@@ -514,6 +587,29 @@
       ]
     },
     {
+      "id": "f-dp89-beloittransit~wi~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/beloit/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/beloittransit-wi-us/beloittransit-wi-us.zip"
+        ]
+      },
+      "tags": {
+        "gtfs_data_exchange": "beloit-transit-system"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dp89-beloittransitsystem",
+          "name": "Beloit Transit System",
+          "website": "https://www.beloittransit.com/",
+          "tags": {
+            "us_ntd_id": "50109"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-dq0v-jacksonvilletransit",
       "spec": "gtfs",
       "urls": {
@@ -698,6 +794,24 @@
       "urls": {
         "static_current": "https://passio3.com/harvard/passioTransit/gtfs/google_transit.zip"
       }
+    },
+    {
+      "id": "f-hendry~co~bocc",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/hendrycounty/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-hendry~co~bocc",
+          "name": "Hendry County Transit System",
+          "short_name": "STREAM",
+          "website": "https://www.hendryfla.net/county_engineer/fixed_route_services.php",
+          "tags": {
+            "us_ntd_id": "44980"
+          }
+        }
+      ]
     },
     {
       "id": "f-hoboken~nj",

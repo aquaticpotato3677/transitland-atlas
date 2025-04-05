@@ -275,29 +275,6 @@
       ]
     },
     {
-      "id": "f-9q5-airportvaletexpress~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/airportvaletexpress-ca-us/airportvaletexpress-ca-us.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "tags": {
-        "status": "outdated"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q5-airportvaletexpress",
-          "name": "Airport Valet Express",
-          "website": "https://www.airportvaletexpress.com/fares/"
-        }
-      ]
-    },
-    {
       "id": "f-9q5-dpwlacounty~ca~us",
       "spec": "gtfs",
       "urls": {
@@ -1634,45 +1611,6 @@
       ]
     },
     {
-      "id": "f-9xj5s-viamobilityservices~co~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/viamobilityservices-co-us/viamobilityservices-co-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9xj5s-viamobilityservices",
-          "name": "City of Boulder",
-          "website": "https://bouldercolorado.gov/services/hop-bus",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "689"
-            },
-            {
-              "feed_onestop_id": "f-9xj5s-viamobilityservices~rt"
-            },
-            {
-              "feed_onestop_id": "f-9xj5s-viamobilityservices~rt~alerts"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-bouldercounty~co~us",
-          "name": "County of Boulder",
-          "website": "https://www.bouldercounty.org/open-space/parks-and-trails/hessie-trailhead/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1601"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "f-9xj5sg-universitycoloradoboulder~co~us",
       "spec": "gtfs",
       "urls": {
@@ -2378,7 +2316,6 @@
           "website": "http://pt.berkeley.edu/around/transit/routes/",
           "tags": {
             "twitter_general": "CalParking",
-            "us_ntd_id": "9R02-91012",
             "wikidata_id": "Q4876580"
           }
         }
@@ -3178,6 +3115,20 @@
               "gtfs_agency_id": "1649"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "f-cityofgolden~co~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/cityofgolden-co-us/cityofgolden-co-us.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-cityofgolden",
+          "name": "City of Golden",
+          "website": "https://www.cityofgolden.gov/services/ore_cart/index.php"
         }
       ]
     },
@@ -4007,38 +3958,6 @@
       ]
     },
     {
-      "id": "f-dp89-beloittransit~wi~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/beloittransit-wi-us/beloittransit-wi-us.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "tags": {
-        "gtfs_data_exchange": "beloit-transit-system",
-        "status": "outdated"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dp89-beloittransitsystem",
-          "name": "Beloit Transit System",
-          "website": "https://www.beloittransit.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "467"
-            }
-          ],
-          "tags": {
-            "us_ntd_id": "50109"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-dp9k-waukeshacounty~wi~us",
       "spec": "gtfs",
       "urls": {
@@ -4099,34 +4018,6 @@
             "twitter_general": "Oshkosh_Transit",
             "us_ntd_id": "50009",
             "wikidata_id": "Q5514128"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-dpc5-valleytransit",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/valleytransit-wi-us/valleytransit-wi-us.zip",
-          "http://gis.appleton.org/DataDownload/google_transit.zip"
-        ]
-      },
-      "tags": {
-        "status": "outdated"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dpc5-valleytransit",
-          "name": "Valley Transit",
-          "associated_feeds": [
-            {
-              "feed_onestop_id": "f-dpc5-valleytransit~rt"
-            }
-          ],
-          "tags": {
-            "us_ntd_id": "50001",
-            "wikidata_id": "Q7912245"
           }
         }
       ]
@@ -5837,7 +5728,18 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/kimballcountytransit-ne-us/kimballcountytransit-ne-us.zip"
-      }
+      },
+      "operators": [
+        {
+          "onestop_id": "o-kimballcountytransit",
+          "name": "Kimball County Transit Service",
+          "short_name": "KCTS",
+          "website": "https://ridekcts.com/",
+          "tags": {
+            "us_ntd_id": "70200"
+          }
+        }
+      ]
     },
     {
       "id": "f-kiowacounty~co~us",
@@ -6085,6 +5987,20 @@
       ]
     },
     {
+      "id": "f-maritimebus~ca",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/maritimebus-ca/maritimebus-ca.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-maritimebus",
+          "name": "Maritime Bus",
+          "website": "https://maritimebus.com/"
+        }
+      ]
+    },
+    {
       "id": "f-miamibeach",
       "spec": "gtfs",
       "urls": {
@@ -6173,6 +6089,20 @@
             "us_ntd_id": "91090",
             "wikidata_id": "Q6913253"
           }
+        }
+      ]
+    },
+    {
+      "id": "f-morrowcounty~or~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://oregon-gtfs.trilliumtransit.com/gtfs_data/morrowcounty-or-us/morrowcounty-or-us.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-morrowcounty",
+          "name": "Morrow County Public Transit",
+          "website": "https://www.co.morrow.or.us/theloop"
         }
       ]
     },
